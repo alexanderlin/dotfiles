@@ -1,13 +1,4 @@
 
-# import = [
-#   # uncomment the flavour you want below:
-#   # "~/.config/alacritty/catppuccin-latte.toml",
-#   # "~/.config/alacritty/catppuccin-frappe.toml"
-#   # "~/.config/alacritty/catppuccin-macchiato.toml"
-#   # "~/.config/alacritty/catppuccin-mocha.toml"
-#   # "~/.config/alacritty/tokyonight_day.toml",
-# ]
-
 # Colors (Solarized Osaka)
 # HSL convert HEX using https://colordesigner.io/
 
@@ -63,6 +54,3 @@ size = 12 # Default: 11.25
 
 hide_when_typing = true
 bindings = [{ mouse = "Right", action = "Copy" }]
-
-# [shell]
-# program = "/usr/bin/fish"
