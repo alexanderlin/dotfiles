@@ -1,0 +1,68 @@
+
+# import = [
+#   # uncomment the flavour you want below:
+#   # "~/.config/alacritty/catppuccin-latte.toml",
+#   # "~/.config/alacritty/catppuccin-frappe.toml"
+#   # "~/.config/alacritty/catppuccin-macchiato.toml"
+#   # "~/.config/alacritty/catppuccin-mocha.toml"
+#   # "~/.config/alacritty/tokyonight_day.toml",
+# ]
+
+# Colors (Solarized Osaka)
+# HSL convert HEX using https://colordesigner.io/
+
+# Default colors
+[colors.primary]
+background = '#00141a' #color.base04
+foreground = '#839495' #color.fg
+
+# Normal colors
+[colors.normal]
+black = '#00141a'   #color.base04
+red = '#dc312e'     #color.red
+green = '#859900'   #color.green
+yellow = '#b38600'  #color.yellow
+blue = '#278bd3'    #color.blue
+magenta = '#d33682' #color.magenta
+cyan = '#2aa298'    #color.cyan
+white = '#ede7d4'   #color.base2
+
+# Bright colors
+[colors.bright]
+black = '#002d38'   #color.base03
+red = '#f65351'     #color.red300
+green = '#b7fa00'   #color.green300
+yellow = '#ffbf00'  #color.yellow300
+blue = '#47adf5'    #color.blue300
+magenta = '#f254a1' #color.magenta300
+cyan = '#2beede'    #color.cyan300
+white = '#fdf6e2'   #color.base3
+
+########
+# FONT #
+########
+
+[font]
+
+# Normal font style
+normal = { family = "JetBrains Mono Nerd Font", style = "Regular" } # Default for Linux/BSD: "monospace", Regular
+
+# Bold font style
+bold = { style = "Bold" } # Inherits family from normal, Default style: Bold
+
+# Italic font style
+italic = { style = "Italic" } # Inherits family from normal, Default style: Italic
+
+# Bold Italic font style
+bold_italic = { style = "Bold Italic" } # Inherits family from normal, Default style: Bold Italic
+
+# Font size in points
+size = 12 # Default: 11.25
+
+[mouse]
+
+hide_when_typing = true
+bindings = [{ mouse = "Right", action = "Copy" }]
+
+# [shell]
+# program = "/usr/bin/fish"
