@@ -5,21 +5,23 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-        "astro",
+        -- "astro",
         "cmake",
-        "cpp",
+        -- "cpp",
         "css",
         "fish",
         "gitignore",
-        "go",
-        "graphql",
+        -- "go",
+        -- "graphql",
         "http",
         "java",
         "php",
         "rust",
         "scss",
         "sql",
-        "svelte",
+        -- "svelte",
+        "jsonc",
+        "regex",
       },
 
       -- matchup = {
